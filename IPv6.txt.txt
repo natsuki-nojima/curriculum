@@ -1,0 +1,24 @@
+--問--　EUI-64を用いて64ビットのインターフェースIDに拡張
+
+
+（１）MACアドレス：AAAA.AAAA.AAAA
+
+インターフェースID：A8 AA AA FF FE AA AA AA
+
+   AA=1010 1010→1010 1000=A8
+
+
+
+（２）MACアドレス：9876.5432.10FE
+
+インターフェースID：9A 76 54 FF FE 32 10 FE
+
+   98=1001 1000→1001 1010=9A
+
+
+
+（３）MACアドレス：FFFF.FFFF.FFFF
+
+インターフェースID：FD FF FF FF FE FF FF FF
+
+   FF=1111 1111→1111 1101=FD
